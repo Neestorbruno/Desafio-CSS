@@ -1,0 +1,129 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #172330;
+    margin-right: 32px;
+    cursor: pointer
+}
+
+.button-header {
+    background: rgba(111, 191, 68, 1);
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid rgba(76, 181, 56, 1);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.logo-image {
+    width: 595px;
+    height: 500px;
+    margin: 163px 0 0 123px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: rgba(22, 26, 73, 1);
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: rgba(75, 80, 90, 1);
+    letter-spacing: 0.5px;
+}
+
+.link-section {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(111, 191, 68, 1);
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:734px) {
+
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        margin-right:  8px;
+        margin-top: 6px;
+        margin-left: auto;
+        display: block;
+
+    }
+
+    .container-image {
+        width: 100vw;
+        height: 50vh;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .logo-image {
+        margin: 0 auto;
+        width: 312px;
+        height: 288px;
+        position: fixed;
+        bottom: 1%;
+   }
+
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        text-align: Center;
+    }
+
+    section {
+        top: 20%;
+        line-height: 33px;
+        margin: 20px 50px;
+        width: auto;
+        text-align: center;
+        position:fixed;
+        bottom: 30.5%;
+    }
+    h1 {
+        width: 278px;
+        height: 60px;
+        line-height: 30px;
+        font-size:30px ;
+    }
+
+
+}
